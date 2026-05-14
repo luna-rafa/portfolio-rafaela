@@ -253,9 +253,8 @@ export default function PortfolioRafaela() {
             <div className="relative bg-slate-900/95 border border-slate-800 rounded-3xl p-6">
               <img
                 src="/rafaela.jpg"
-                 alt="Rafaela Rodrigues"
-                  className="w-full max-w-[360px] h-[430px] mx-auto rounded-3xl object-cover object-top border border-cyan-500/30 shadow-2xl mb-6"
-/>
+                alt="Rafaela Rodrigues"
+                className="w-full max-w-[360px] h-[430px] mx-auto rounded-3xl object-cover object-top border border-cyan-500/30 shadow-2xl mb-6"
               />
 
               <div className="flex flex-wrap gap-3 mb-6 justify-center">
