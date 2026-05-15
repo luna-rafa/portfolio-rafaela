@@ -231,7 +231,7 @@ export default function PortfolioRafaela() {
 
               <div className="font-mono text-sm text-slate-300 space-y-2">
                 <p><span className="text-cyan-400">&gt;</span> Usuário: Rafaela Rodrigues</p>
-                <p><span className="text-cyan-400">&gt;</span> Perfil de acesso: IT Support Analyst</p>
+                <p><span className="text-cyan-400">&gt;</span> Perfil de acesso: Analista de Suporte Pleno</p>
                 <p><span className="text-cyan-400">&gt;</span> Área de atuação: Infrastructure | Azure | Active Directory</p>
                 <p>
                   <span className="text-cyan-400">&gt;</span> Disponível para novas oportunidades profissionais.
