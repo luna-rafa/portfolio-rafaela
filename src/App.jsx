@@ -1,15 +1,17 @@
 export default function PortfolioRafaela() {
+ const skills = {
+  suporte: [
+    'Help Desk',
+    'Service Desk',
+    'Suporte N1/N2',
+    'Suporte Remoto',
+    'Gestão de Chamados',
+    'Troubleshooting',
+    'Resolução de Incidentes',
+    'Monitoramento Proativo',
+    'Documentação Técnica',
+    'Instalação e Configuração de Software'
 
-  const skills = {
-    suporte: [
-      'Help Desk',
-      'Service Desk',
-      'Suporte N1/N2',
-      'Suporte Remoto',
-      'Troubleshooting',
-      'Atendimento ao Usuário',
-      'Resolução de Incidentes',
-      'Monitoramento Proativo'
     ],
     infraestrutura: [
       'Microsoft Azure',
@@ -19,7 +21,13 @@ export default function PortfolioRafaela() {
       'VPN',
       'Firewalls',
       'Redes Corporativas',
-      'Políticas de Segurança'
+      'Políticas de Segurança',
+      'Microsoft 365',
+      'Segurança da Informação',
+      'Administração de Sistemas',
+      'Controle de Acessos',
+      'TCP/IP',
+      'Redes LAN e WAN'
     ],
     desenvolvimento: [
       'Python',
@@ -59,7 +67,7 @@ export default function PortfolioRafaela() {
     },
     {
       company: 'Ayko Technology',
-      role: 'Technical Support Analyst',
+      role: 'Analista de Service Desk',
       period: '2024 - 2025',
       details: [
         'Troubleshooting de hardware e software',
@@ -75,6 +83,27 @@ export default function PortfolioRafaela() {
         'Node.js, PHP, Python e Docker',
         'Linux e MySQL',
         'Git e GitHub'
+      ]
+    }
+    {
+      company: 'Loga',
+      role: 'Suporte Técnico (N1)',
+      period: '2021 - 2024',
+      details: [
+        'Suporte Técnico especializado em telecomunicações',
+        'Configuração de equipamentos ONU FiberHome e Huawei via sistemas UNM2000 e U2000',
+        'Git e GitHub'
+      ]
+    }
+    {
+      company: 'Algar Tecnologia',
+      role: 'Suporte ao Cliente',
+      period: '2009 - 2015',
+      details: [
+        'Orientação via email e chat',
+        'Organização de plataforma (Comgás)',
+        'Cobrança pessoa jurídica (HSBC)',
+        'Orientação de finanças (HSBC)'
       ]
     }
   ]
@@ -166,12 +195,12 @@ export default function PortfolioRafaela() {
             </h1>
 
             <h2 className="text-2xl text-slate-300 mb-6">
-              Analista de Suporte Técnico | Infraestrutura • Cloud
+              Analista de Suporte Pleno | Infraestrutura • Cloud | 
             </h2>
 
             <p className="text-slate-400 text-lg leading-relaxed mb-6">
-              Profissional de Tecnologia da Informação com experiência em suporte técnico,
-              infraestrutura, Microsoft Azure, Windows Server e Active Directory.
+              Profissional de Tecnologia da Informação com sólida experiência em suporte técnico, atendimento especializado e resolução de incidentes, atuando com foco em análise de problemas, suporte ao usuário e continuidade dos serviços de TI.
+              infraestrutura, Microsoft Azure, Windows Server e Active Directory. Tenho investido continuamente em capacitação na área de Inteligência Artificial, explorando aplicações práticas de IA, automação e inovação tecnológica voltadas para suporte, produtividade e transformação digital.
             </p>
 
             <p className="text-slate-400 text-lg leading-relaxed mb-8">
@@ -188,7 +217,7 @@ export default function PortfolioRafaela() {
 
               <div className="bg-slate-900/80 border border-cyan-500/20 rounded-2xl p-5">
                 <p className="text-3xl font-bold text-cyan-400">N1/N2</p>
-                <p className="text-slate-400 text-sm mt-1">suporte técnico</p>
+                <p className="text-slate-400 text-sm mt-1">Suporte Técnico Pleno</p>
               </div>
 
               <div className="bg-slate-900/80 border border-cyan-500/20 rounded-2xl p-5">
@@ -205,11 +234,10 @@ export default function PortfolioRafaela() {
               </div>
 
               <div className="font-mono text-sm text-slate-300 space-y-2">
-                <p><span className="text-cyan-400">&gt;</span> user: Rafaela Rodrigues</p>
-                <p><span className="text-cyan-400">&gt;</span> role: IT Support Analyst</p>
-                <p><span className="text-cyan-400">&gt;</span> focus: Infrastructure | Azure | Active Directory</p>
-                <p>
-                  <span className="text-cyan-400">&gt;</span> status: Open to opportunities
+                <p><span className="text-cyan-400">&gt;</span> Usuário: Rafaela Rodrigues</p>
+                <p><span className="text-cyan-400">&gt;</span> Perfil de acesso: Analista de Suporte </p>                
+                <p><span className="text-cyan-400">&gt;</span> Área de atuação: Infrastructure | Azure | Active Directory</p>
+                <p><span className="text-cyan-400">&gt;</span> Disponível para novas oportunidades profissionais
                   <span className="cursor text-cyan-400"> |</span>
                 </p>
               </div>
@@ -257,6 +285,27 @@ export default function PortfolioRafaela() {
                 alt="Rafaela Rodrigues"
                 className="w-full max-w-[360px] h-[430px] mx-auto rounded-3xl object-cover object-top border border-cyan-500/30 shadow-2xl mb-6"
               />
+
+              <div className="flex flex-wrap gap-3 mb-6 justify-center">
+                <span className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-4 py-2 rounded-xl text-sm">
+                  Windows Server
+                </span>
+                <span className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-4 py-2 rounded-xl text-sm">
+                  Infraestrutura
+                </span>
+                <span className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-4 py-2 rounded-xl text-sm">
+                  Cloud
+                </span>
+                <span className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-4 py-2 rounded-xl text-sm">
+                  VPN
+                </span>
+                <span className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-4 py-2 rounded-xl text-sm">
+                  Active Directory
+                </span>
+                <span className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-4 py-2 rounded-xl text-sm">
+                  Redes
+                </span>
+              </div>
 
               <div className="bg-slate-950/70 rounded-2xl p-5 border border-slate-800">
                 <h3 className="text-xl font-semibold mb-3 text-cyan-400">
