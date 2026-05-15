@@ -1,17 +1,17 @@
 export default function PortfolioRafaela() {
   const skills = {
-    suporte: [
-      'Help Desk',
-      'Service Desk',
-      'Suporte N1/N2',
-      'Suporte Remoto',
-      'Gestão de Chamados',
-      'Troubleshooting',
-      'Resolução de Incidentes',
-      'Monitoramento Proativo',
-      'Documentação Técnica',
-      'Instalação e Configuração de Software'
-    ],
+  suporte: [
+  'Help Desk',
+  'Service Desk',
+  'Suporte N1/N2',
+  'Suporte Remoto',
+  'Gestão de Chamados',
+  'Troubleshooting',
+  'Resolução de Incidentes',
+  'Monitoramento Proativo',
+  'Documentação Técnica',
+  'Instalação e Configuração de Software'
+],
   
     infraestrutura: [
       'Microsoft Azure',
@@ -235,7 +235,7 @@ export default function PortfolioRafaela() {
                 <p><span className="text-cyan-400">&gt;</span> Perfil de acesso: Analista de Suporte Pleno</p>
                 <p><span className="text-cyan-400">&gt;</span> Área de atuação: Infrastructure | Azure | Active Directory</p>
                 <p>
-                  <span className="text-cyan-400">&gt;</span> Disponível para novas oportunidades profissionais.
+                  <span className="text-cyan-400">&gt;</span> Disponível para novas oportunidades profissionais
                   <span className="cursor text-cyan-400"> |</span>
                 </p>
               </div>
