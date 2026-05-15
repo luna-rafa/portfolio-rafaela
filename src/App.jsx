@@ -1,18 +1,28 @@
 export default function PortfolioRafaela() {
+
+  const apresentacao = {
+    titulo: 'Carta de Apresentação',
+    subtitulo: 'Tecnologia, suporte técnico e infraestrutura',
+    texto: `Sou Rafaela Rodrigues, profissional de Tecnologia da Informação com experiência em suporte técnico, infraestrutura, atendimento especializado e resolução de incidentes.
+
+Atuo com foco em suporte N1/N2, troubleshooting, suporte remoto, monitoramento, configuração de equipamentos e suporte ao usuário, sempre buscando unir eficiência técnica com comunicação humanizada.
+
+Sou uma profissional neurodivergente, TEA nível 1 e TDAH, e transformo características como atenção a detalhes, pensamento analítico, identificação de padrões, hiperfoco e persistência em diferenciais para minha atuação na tecnologia.
+
+Busco oportunidades em ambientes colaborativos, inovadores e voltados à melhoria contínua, onde eu possa contribuir com minhas habilidades técnicas, capacidade analítica e aprendizado constante.`
+  };
+
   const skills = {
-  suporte: [
-  'Help Desk',
-  'Service Desk',
-  'Suporte N1/N2',
-  'Suporte Remoto',
-  'Gestão de Chamados',
-  'Troubleshooting',
-  'Resolução de Incidentes',
-  'Monitoramento Proativo',
-  'Documentação Técnica',
-  'Instalação e Configuração de Software'
-],
-  
+    suporte: [
+      'Help Desk',
+      'Service Desk',
+      'Suporte N1/N2',
+      'Suporte Remoto',
+      'Troubleshooting',
+      'Atendimento ao Usuário',
+      'Resolução de Incidentes',
+      'Monitoramento Proativo'
+    ],
     infraestrutura: [
       'Microsoft Azure',
       'Windows Server',
@@ -21,11 +31,7 @@ export default function PortfolioRafaela() {
       'VPN',
       'Firewalls',
       'Redes Corporativas',
-      'Políticas de Segurança',
-      'Microsoft 365',
-      'Configuração de Redes',
-      'Segurança da Informação',
-      'Automação'
+      'Políticas de Segurança'
     ],
     desenvolvimento: [
       'Python',
@@ -65,7 +71,7 @@ export default function PortfolioRafaela() {
     },
     {
       company: 'Ayko Technology',
-      role: 'Analista de Suporte de Service Desk',
+      role: 'Technical Support Analyst',
       period: '2024 - 2025',
       details: [
         'Troubleshooting de hardware e software',
@@ -82,27 +88,7 @@ export default function PortfolioRafaela() {
         'Linux e MySQL',
         'Git e GitHub'
       ]
-    },
-    {
-      company: 'Loga',
-      role: 'Analista de Suporte Técnico',
-      period: '2021 - 2024',
-      details: [
-        'Configurações de equipamentos ONU FiberHome e Huawei via sistemas UNM2000 e U2000',
-        'Atendimento Service Desk especializado em telecomunicações',
-        'Atendimento financeiro'
-      ]
-    },  {
-      company: 'Algar Tecnologia',
-      role: 'Suporte ao Cliente',
-      period: '2009 - 2015',
-      details: [
-        'Atendimento ao cliente (telefonia, chat, e-mail)',
-        'Organização da plataforma (Comgás)',
-        'Cobranças à pessoas juridicas (HSBC)',
-        'Orientação Financeira'
-      ]
-    },
+    }
   ]
 
   const cases = [
@@ -192,12 +178,12 @@ export default function PortfolioRafaela() {
             </h1>
 
             <h2 className="text-2xl text-slate-300 mb-6">
-              Analista de Suporte Pleno | Infraestrutura • Cloud
+              Analista de Suporte Técnico | Infraestrutura • Cloud
             </h2>
 
             <p className="text-slate-400 text-lg leading-relaxed mb-6">
-              Profissional de Tecnologia da Informação com sólida experiência em suporte técnico, atendimento especializado e resolução de incidentes, atuando com foco em análise de problemas, suporte ao usuário e continuidade dos serviços de TI.
-              infraestrutura, Microsoft Azure, Windows Server e Active Directory. Estudante de Inteligência Artificial.
+              Profissional de Tecnologia da Informação com experiência em suporte técnico,
+              infraestrutura, Microsoft Azure, Windows Server e Active Directory.
             </p>
 
             <p className="text-slate-400 text-lg leading-relaxed mb-8">
@@ -214,7 +200,7 @@ export default function PortfolioRafaela() {
 
               <div className="bg-slate-900/80 border border-cyan-500/20 rounded-2xl p-5">
                 <p className="text-3xl font-bold text-cyan-400">N1/N2</p>
-                <p className="text-slate-400 text-sm mt-1">Suporte técnico</p>
+                <p className="text-slate-400 text-sm mt-1">suporte técnico</p>
               </div>
 
               <div className="bg-slate-900/80 border border-cyan-500/20 rounded-2xl p-5">
@@ -231,11 +217,11 @@ export default function PortfolioRafaela() {
               </div>
 
               <div className="font-mono text-sm text-slate-300 space-y-2">
-                <p><span className="text-cyan-400">&gt;</span> Usuário: Rafaela Rodrigues</p>
-                <p><span className="text-cyan-400">&gt;</span> Perfil de acesso: Analista de Suporte Pleno</p>
-                <p><span className="text-cyan-400">&gt;</span> Área de atuação: Infrastructure | Azure | Active Directory</p>
+                <p><span className="text-cyan-400">&gt;</span> user: Rafaela Rodrigues</p>
+                <p><span className="text-cyan-400">&gt;</span> role: IT Support Analyst</p>
+                <p><span className="text-cyan-400">&gt;</span> focus: Infrastructure | Azure | Active Directory</p>
                 <p>
-                  <span className="text-cyan-400">&gt;</span> Disponível para novas oportunidades profissionais
+                  <span className="text-cyan-400">&gt;</span> status: Open to opportunities
                   <span className="cursor text-cyan-400"> |</span>
                 </p>
               </div>
@@ -304,6 +290,36 @@ export default function PortfolioRafaela() {
                   Redes
                 </span>
               </div>
+              <section className="bg-slate-900/80 border border-cyan-500/20 rounded-3xl p-8 mt-8 shadow-lg">
+  <p className="text-cyan-400 text-sm uppercase tracking-widest">
+    {apresentacao.subtitulo}
+  </p>
+
+  <h2 className="text-3xl font-bold text-white mt-2">
+    {apresentacao.titulo}
+  </h2>
+
+  <p className="text-slate-300 mt-6 leading-relaxed whitespace-pre-line">
+    {apresentacao.texto}
+  </p>
+
+  <div className="flex flex-wrap gap-4 mt-8">
+    <a
+      href="https://www.linkedin.com/"
+      target="_blank"
+      className="bg-cyan-500 text-slate-950 px-5 py-3 rounded-2xl font-semibold hover:bg-cyan-400 transition"
+    >
+      LinkedIn
+    </a>
+
+    <a
+      href="mailto:raahr91@gmail.com"
+      className="border border-cyan-500 text-cyan-400 px-5 py-3 rounded-2xl font-semibold hover:bg-cyan-500/10 transition"
+    >
+      Contato
+    </a>
+  </div>
+</section>
 
               <div className="bg-slate-950/70 rounded-2xl p-5 border border-slate-800">
                 <h3 className="text-xl font-semibold mb-3 text-cyan-400">
