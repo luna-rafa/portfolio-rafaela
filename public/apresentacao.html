@@ -1,25 +1,229 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rafaela Rodrigues - Apresentação</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Rafaela Rodrigues | Sobre Mim</title>
 
   <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
     body{
-      background:#020617;
+      background:
+      radial-gradient(circle at top, #0f172a 0%, #020617 60%);
       color:white;
       font-family:Arial, sans-serif;
-      margin:0;
-      padding:60px 20px;
-      line-height:1.8;
+      overflow-x:hidden;
     }
 
     .container{
-      max-width:900px;
+      max-width:1100px;
       margin:auto;
+      padding:80px 24px;
+      animation:fadeIn 1.2s ease;
     }
 
+    @keyframes fadeIn{
+      from{
+        opacity:0;
+        transform:translateY(20px);
+      }
+
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    .badge{
+      display:inline-block;
+      background:#083344;
+      color:#67e8f9;
+      padding:10px 18px;
+      border-radius:999px;
+      font-size:14px;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      margin-bottom:24px;
+      border:1px solid rgba(103,232,249,0.3);
+    }
+
+    h1{
+      font-size:64px;
+      line-height:1;
+      margin-bottom:20px;
+      background:linear-gradient(to right,#ffffff,#67e8f9);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+
+    .subtitle{
+      font-size:24px;
+      color:#67e8f9;
+      margin-bottom:50px;
+    }
+
+    .card{
+      background:rgba(15,23,42,0.7);
+      border:1px solid rgba(103,232,249,0.15);
+      border-radius:32px;
+      padding:40px;
+      backdrop-filter:blur(10px);
+      box-shadow:0 0 40px rgba(6,182,212,0.08);
+    }
+
+    p{
+      color:#cbd5e1;
+      font-size:19px;
+      line-height:1.9;
+      margin-bottom:24px;
+    }
+
+    .highlight{
+      color:#67e8f9;
+      font-weight:bold;
+    }
+
+    .skills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:14px;
+      margin-top:40px;
+    }
+
+    .skill{
+      padding:12px 18px;
+      border-radius:16px;
+      background:#082f49;
+      color:#7dd3fc;
+      border:1px solid rgba(125,211,252,0.2);
+      font-size:15px;
+      transition:0.3s;
+    }
+
+    .skill:hover{
+      transform:translateY(-4px);
+      box-shadow:0 0 20px rgba(103,232,249,0.2);
+    }
+
+    .buttons{
+      margin-top:50px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:18px;
+    }
+
+    .button{
+      padding:16px 28px;
+      border-radius:18px;
+      text-decoration:none;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .primary{
+      background:#06b6d4;
+      color:#020617;
+    }
+
+    .primary:hover{
+      transform:translateY(-3px);
+      box-shadow:0 0 30px rgba(34,211,238,0.4);
+    }
+
+    .secondary{
+      border:1px solid #22d3ee;
+      color:#67e8f9;
+    }
+
+    .secondary:hover{
+      background:rgba(34,211,238,0.08);
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="badge">
+      Tecnologia • Infraestrutura • Inteligência Artificial
+    </div>
+
+    <h1>
+      Rafaela Rodrigues
+    </h1>
+
+    <div class="subtitle">
+      Service Desk • Suporte Técnico • Infraestrutura • Cloud
+    </div>
+
+    <div class="card">
+
+      <p>
+        Sou profissional de <span class="highlight">Tecnologia da Informação</span> com experiência em suporte técnico, infraestrutura, atendimento especializado e resolução de incidentes.
+      </p>
+
+      <p>
+        Atuo com foco em <span class="highlight">Service Desk, Suporte N1/N2, troubleshooting, monitoramento, suporte remoto e experiência do usuário</span>, buscando unir eficiência técnica com comunicação humanizada.
+      </p>
+
+      <p>
+        Possuo perfil analítico, forte atenção a detalhes, facilidade em identificar padrões e comprometimento com melhoria contínua, resolução de problemas e evolução tecnológica.
+      </p>
+
+      <p>
+        Também sou uma profissional neurodivergente (TEA nível 1 e TDAH), transformando características como hiperfoco, pensamento lógico, persistência e organização em diferenciais importantes para minha atuação na tecnologia.
+      </p>
+
+      <p>
+        Atualmente sigo aprofundando conhecimentos em <span class="highlight">Infraestrutura, Cloud, Inteligência Artificial e suporte corporativo</span>, incluindo estudos e capacitações em IA por meio da IBM.
+      </p>
+
+      <div class="skills">
+
+        <div class="skill">Help Desk</div>
+        <div class="skill">Service Desk</div>
+        <div class="skill">Suporte N1/N2</div>
+        <div class="skill">Troubleshooting</div>
+        <div class="skill">Infraestrutura</div>
+        <div class="skill">Microsoft Azure</div>
+        <div class="skill">Windows Server</div>
+        <div class="skill">Active Directory</div>
+        <div class="skill">Monitoramento</div>
+        <div class="skill">Cloud</div>
+        <div class="skill">Inteligência Artificial</div>
+        <div class="skill">Cybersecurity</div>
+
+      </div>
+
+      <div class="buttons">
+
+        <a class="button primary" href="/">
+          Voltar ao Portfólio
+        </a>
+
+        <a class="button secondary" href="https://www.linkedin.com/" target="_blank">
+          LinkedIn
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
     h1{
       font-size:48px;
       margin-bottom:10px;
