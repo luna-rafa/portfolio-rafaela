@@ -1,4 +1,6 @@
 export default function PortfolioRafaela() {
+  const SITE_VERSION = '2026-05-15 v3'
+  const LAST_UPDATE = '15/05/2026'
  const skills = {
   suporte: [
     'Help Desk',
@@ -180,6 +182,9 @@ export default function PortfolioRafaela() {
       `}</style>
 
       <div className="absolute inset-0 tech-grid opacity-40"></div>
+        <div className="fixed top-4 right-4 z-50 bg-slate-900/90 border border-cyan-400/30 rounded-xl px-3 py-2 shadow-lg">
+        <p className="text-xs text-cyan-300">Dados atualizados: {LAST_UPDATE}</p>
+      </div>
       <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-500/20 rounded-full blur-3xl float-tech"></div>
       <div className="absolute bottom-32 right-10 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl float-tech"></div>
 
@@ -198,7 +203,10 @@ export default function PortfolioRafaela() {
               Analista de Suporte Pleno | Infraestrutura • Cloud | 
             </h2>
 
-           <p className="text-xs text-slate-500 mt-2">Versão do site: 2026-05-15 v2</p>
+           <div className="inline-flex items-center gap-2 bg-cyan-500/10 border border-cyan-400/30 rounded-full px-4 py-2 mb-5">
+              <span className="h-2 w-2 rounded-full bg-cyan-400 animate-pulse"></span>
+              <p className="text-sm text-cyan-300 font-medium">Versão publicada: {SITE_VERSION} • Atualizado em {LAST_UPDATE}</p>
+            </div>
            
             <p className="text-slate-400 text-lg leading-relaxed mb-6">
               Profissional de Tecnologia da Informação com sólida experiência em suporte técnico, atendimento especializado e resolução de incidentes, atuando com foco em análise de problemas, suporte ao usuário e continuidade dos serviços de TI.
