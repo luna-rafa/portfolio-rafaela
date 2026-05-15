@@ -212,7 +212,7 @@ export default function PortfolioRafaela() {
             </p>
 
             <a
-              href="/apresentacao"
+              href="/apresentacao.html"
               className="inline-block bg-cyan-500 text-slate-950 px-5 py-3 rounded-2xl font-semibold hover:bg-cyan-400 transition mb-8"
              >
                Sobre mim
