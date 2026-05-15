@@ -5,10 +5,12 @@ export default function PortfolioRafaela() {
       'Service Desk',
       'Suporte N1/N2',
       'Suporte Remoto',
+      'Gestão de Chamados'.
       'Troubleshooting',
-      'Atendimento ao Usuário',
       'Resolução de Incidentes',
       'Monitoramento Proativo'
+      'Documentação Técnica',
+      'Instalação e Configuração de Software',
     ],
     infraestrutura: [
       'Microsoft Azure',
@@ -18,7 +20,11 @@ export default function PortfolioRafaela() {
       'VPN',
       'Firewalls',
       'Redes Corporativas',
-      'Políticas de Segurança'
+      'Políticas de Segurança',
+      'Microsoft 365',
+      'Configuração de Redes',
+      'Segurança da Informação'
+      'Automação',
     ],
     desenvolvimento: [
       'Python',
@@ -170,7 +176,7 @@ export default function PortfolioRafaela() {
 
             <p className="text-slate-400 text-lg leading-relaxed mb-6">
               Profissional de Tecnologia da Informação com experiência em suporte técnico,
-              infraestrutura, Microsoft Azure, Windows Server e Active Directory.
+              infraestrutura, Microsoft Azure, Windows Server e Active Directory. Estudante de Inteligência Artificial.
             </p>
 
             <p className="text-slate-400 text-lg leading-relaxed mb-8">
