@@ -5,13 +5,14 @@ export default function PortfolioRafaela() {
       'Service Desk',
       'Suporte N1/N2',
       'Suporte Remoto',
-      'Gestão de Chamados'.
+      'Gestão de Chamados',
       'Troubleshooting',
       'Resolução de Incidentes',
       'Monitoramento Proativo',
       'Documentação Técnica',
       'Instalação e Configuração de Software'
     ],
+  
     infraestrutura: [
       'Microsoft Azure',
       'Windows Server',
@@ -23,8 +24,8 @@ export default function PortfolioRafaela() {
       'Políticas de Segurança',
       'Microsoft 365',
       'Configuração de Redes',
-      'Segurança da Informação'
-      'Automação',
+      'Segurança da Informação',
+      'Automação'
     ],
     desenvolvimento: [
       'Python',
