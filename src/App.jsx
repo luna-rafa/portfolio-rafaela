@@ -84,7 +84,7 @@ export default function PortfolioRafaela() {
         'Linux e MySQL',
         'Git e GitHub'
       ]
-    }
+    },
     {
       company: 'Loga',
       role: 'Suporte Técnico (N1)',
@@ -94,7 +94,7 @@ export default function PortfolioRafaela() {
         'Configuração de equipamentos ONU FiberHome e Huawei via sistemas UNM2000 e U2000',
         'Git e GitHub'
       ]
-    }
+    },
     {
       company: 'Algar Tecnologia',
       role: 'Suporte ao Cliente',
