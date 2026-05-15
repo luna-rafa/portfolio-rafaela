@@ -100,7 +100,7 @@ export default function PortfolioRafaela() {
         'Atendimento ao cliente (telefonia, chat, e-mail)',
         'Organização da plataforma (Comgás)',
         'Cobranças à pessoas juridicas (HSBC)',
-        "Orientação Financeira'
+        'Orientação Financeira'
       ]
     },
   ]
