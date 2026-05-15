@@ -198,6 +198,8 @@ export default function PortfolioRafaela() {
               Analista de Suporte Pleno | Infraestrutura • Cloud | 
             </h2>
 
+           <p className="text-xs text-slate-500 mt-2">Versão do site: 2026-05-15 v2</p>
+           
             <p className="text-slate-400 text-lg leading-relaxed mb-6">
               Profissional de Tecnologia da Informação com sólida experiência em suporte técnico, atendimento especializado e resolução de incidentes, atuando com foco em análise de problemas, suporte ao usuário e continuidade dos serviços de TI.
               infraestrutura, Microsoft Azure, Windows Server e Active Directory. Tenho investido continuamente em capacitação na área de Inteligência Artificial, explorando aplicações práticas de IA, automação e inovação tecnológica voltadas para suporte, produtividade e transformação digital.
