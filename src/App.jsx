@@ -191,11 +191,11 @@ export default function PortfolioRafaela() {
             </h1>
 
             <h2 className="text-2xl text-slate-300 mb-6">
-              Analista de Suporte Técnico | Infraestrutura • Cloud
+              Analista de Suporte Pleno | Infraestrutura • Cloud
             </h2>
 
             <p className="text-slate-400 text-lg leading-relaxed mb-6">
-              Profissional de Tecnologia da Informação com experiência em suporte técnico,
+              Profissional de Tecnologia da Informação com sólida experiência em suporte técnico, atendimento especializado e resolução de incidentes, atuando com foco em análise de problemas, suporte ao usuário e continuidade dos serviços de TI.,
               infraestrutura, Microsoft Azure, Windows Server e Active Directory. Estudante de Inteligência Artificial.
             </p>
 
