@@ -8,9 +8,9 @@ export default function PortfolioRafaela() {
       'Gestão de Chamados'.
       'Troubleshooting',
       'Resolução de Incidentes',
-      'Monitoramento Proativo'
+      'Monitoramento Proativo',
       'Documentação Técnica',
-      'Instalação e Configuração de Software',
+      'Instalação e Configuração de Software'
     ],
     infraestrutura: [
       'Microsoft Azure',
