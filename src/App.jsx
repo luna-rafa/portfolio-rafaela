@@ -81,7 +81,27 @@ export default function PortfolioRafaela() {
         'Linux e MySQL',
         'Git e GitHub'
       ]
-    }
+    },
+    {
+      company: 'Loga',
+      role: 'Analista de Suporte Técnico',
+      period: '2021 - 2024',
+      details: [
+        'Configurações de equipamentos ONU FiberHome e Huawei via sistemas UNM2000 e U2000',
+        'Atendimento Service Desk especializado em telecomunicações',
+        'Atendimento financeiro'
+      ]
+    },  {
+      company: 'Algar Tecnologia',
+      role: 'Suporte ao Cliente',
+      period: '2009 - 2015',
+      details: [
+        'Atendimento ao cliente (telefonia, chat, e-mail)',
+        'Organização da plataforma (Comgás)',
+        'Cobranças à pessoas juridicas (HSBC)',
+        "Orientação Financeira'
+      ]
+    },
   ]
 
   const cases = [
