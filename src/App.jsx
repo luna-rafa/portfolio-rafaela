@@ -187,7 +187,7 @@ export default function PortfolioRafaela() {
 
               <div className="bg-slate-900/80 border border-cyan-500/20 rounded-2xl p-5">
                 <p className="text-3xl font-bold text-cyan-400">N1/N2</p>
-                <p className="text-slate-400 text-sm mt-1">suporte técnico</p>
+                <p className="text-slate-400 text-sm mt-1">Suporte técnico</p>
               </div>
 
               <div className="bg-slate-900/80 border border-cyan-500/20 rounded-2xl p-5">
@@ -204,11 +204,11 @@ export default function PortfolioRafaela() {
               </div>
 
               <div className="font-mono text-sm text-slate-300 space-y-2">
-                <p><span className="text-cyan-400">&gt;</span> user: Rafaela Rodrigues</p>
-                <p><span className="text-cyan-400">&gt;</span> role: IT Support Analyst</p>
-                <p><span className="text-cyan-400">&gt;</span> focus: Infrastructure | Azure | Active Directory</p>
+                <p><span className="text-cyan-400">&gt;</span> Usuário: Rafaela Rodrigues</p>
+                <p><span className="text-cyan-400">&gt;</span> Perfil de acesso: IT Support Analyst</p>
+                <p><span className="text-cyan-400">&gt;</span> Área de atuação: Infrastructure | Azure | Active Directory</p>
                 <p>
-                  <span className="text-cyan-400">&gt;</span> status: Open to opportunities
+                  <span className="text-cyan-400">&gt;</span> Disponível para novas oportunidades profissionais.
                   <span className="cursor text-cyan-400"> |</span>
                 </p>
               </div>
