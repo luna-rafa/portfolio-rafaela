@@ -64,7 +64,7 @@ export default function PortfolioRafaela() {
     },
     {
       company: 'Ayko Technology',
-      role: 'Technical Support Analyst',
+      role: 'Analista de Suporte de Service Desk',
       period: '2024 - 2025',
       details: [
         'Troubleshooting de hardware e software',
