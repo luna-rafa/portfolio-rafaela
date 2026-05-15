@@ -1,6 +1,4 @@
 export default function PortfolioRafaela() {
-  const SITE_VERSION = '2026-05-15 v3'
-  const LAST_UPDATE = '15/05/2026'
  const skills = {
   suporte: [
     'Help Desk',
@@ -108,7 +106,8 @@ export default function PortfolioRafaela() {
         'Orientação de finanças (HSBC)'
       ]
     }
-  ]
+    ]
+        
 
   const cases = [
     {
@@ -182,9 +181,6 @@ export default function PortfolioRafaela() {
       `}</style>
 
       <div className="absolute inset-0 tech-grid opacity-40"></div>
-        <div className="fixed top-4 right-4 z-50 bg-slate-900/90 border border-cyan-400/30 rounded-xl px-3 py-2 shadow-lg">
-        <p className="text-xs text-cyan-300">Dados atualizados: {LAST_UPDATE}</p>
-      </div>
       <div className="absolute top-20 left-10 w-72 h-72 bg-cyan-500/20 rounded-full blur-3xl float-tech"></div>
       <div className="absolute bottom-32 right-10 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl float-tech"></div>
 
@@ -203,36 +199,39 @@ export default function PortfolioRafaela() {
               Analista de Suporte Pleno | Infraestrutura • Cloud | 
             </h2>
 
-           <div className="inline-flex items-center gap-2 bg-cyan-500/10 border border-cyan-400/30 rounded-full px-4 py-2 mb-5">
-              <span className="h-2 w-2 rounded-full bg-cyan-400 animate-pulse"></span>
-              <p className="text-sm text-cyan-300 font-medium">Versão publicada: {SITE_VERSION} • Atualizado em {LAST_UPDATE}</p>
-            </div>
-           
             <p className="text-slate-400 text-lg leading-relaxed mb-6">
               Profissional de Tecnologia da Informação com sólida experiência em suporte técnico, atendimento especializado e resolução de incidentes, atuando com foco em análise de problemas, suporte ao usuário e continuidade dos serviços de TI.
               infraestrutura, Microsoft Azure, Windows Server e Active Directory. Tenho investido continuamente em capacitação na área de Inteligência Artificial, explorando aplicações práticas de IA, automação e inovação tecnológica voltadas para suporte, produtividade e transformação digital.
             </p>
 
+            
             <p className="text-slate-400 text-lg leading-relaxed mb-8">
-              Como profissional autista, transformo atenção aos detalhes,
-              pensamento analítico e identificação de padrões em diferenciais
-              para resolução eficiente de problemas técnicos.
+               Como profissional autista, transformo atenção aos detalhes,
+               pensamento analítico e identificação de padrões em diferenciais
+               para resolução eficiente de problemas técnicos.
             </p>
+
+            <a
+              href="/apresentacao"
+              className="inline-block bg-cyan-500 text-slate-950 px-5 py-3 rounded-2xl font-semibold hover:bg-cyan-400 transition mb-8"
+             >
+               Sobre mim
+            </a>
 
             <div className="grid sm:grid-cols-3 gap-4 mb-8">
               <div className="bg-slate-900/80 border border-cyan-500/20 rounded-2xl p-5">
-                <p className="text-3xl font-bold text-cyan-400">+4</p>
-                <p className="text-slate-400 text-sm mt-1">anos em TI e suporte</p>
+                 <p className="text-3xl font-bold text-cyan-400">+4</p>
+                 <p className="text-slate-400 text-sm mt-1">anos em TI e suporte</p>
               </div>
 
-              <div className="bg-slate-900/80 border border-cyan-500/20 rounded-2xl p-5">
-                <p className="text-3xl font-bold text-cyan-400">N1/N2</p>
-                <p className="text-slate-400 text-sm mt-1">Suporte Técnico Pleno</p>
+             <div className="bg-slate-900/80 border border-cyan-500/20 rounded-2xl p-5">
+                 <p className="text-3xl font-bold text-cyan-400">N1/N2</p>
+                 <p className="text-slate-400 text-sm mt-1">Suporte Técnico Pleno</p>
               </div>
 
-              <div className="bg-slate-900/80 border border-cyan-500/20 rounded-2xl p-5">
-                <p className="text-3xl font-bold text-cyan-400">Cloud</p>
-                <p className="text-slate-400 text-sm mt-1">Azure e ambientes híbridos</p>
+             <div className="bg-slate-900/80 border border-cyan-500/20 rounded-2xl p-5">
+                  <p className="text-3xl font-bold text-cyan-400">Cloud</p>
+                  <p className="text-slate-400 text-sm mt-1">Azure e ambientes híbridos</p>
               </div>
             </div>
 
