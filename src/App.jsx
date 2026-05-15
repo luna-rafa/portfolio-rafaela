@@ -1,17 +1,5 @@
 export default function PortfolioRafaela() {
 
-  const apresentacao = {
-    titulo: 'Carta de Apresentação',
-    subtitulo: 'Tecnologia, suporte técnico e infraestrutura',
-    texto: `Sou Rafaela Rodrigues, profissional de Tecnologia da Informação com experiência em suporte técnico, infraestrutura, atendimento especializado e resolução de incidentes.
-
-Atuo com foco em suporte N1/N2, troubleshooting, suporte remoto, monitoramento, configuração de equipamentos e suporte ao usuário, sempre buscando unir eficiência técnica com comunicação humanizada.
-
-Sou uma profissional neurodivergente, TEA nível 1 e TDAH, e transformo características como atenção a detalhes, pensamento analítico, identificação de padrões, hiperfoco e persistência em diferenciais para minha atuação na tecnologia.
-
-Busco oportunidades em ambientes colaborativos, inovadores e voltados à melhoria contínua, onde eu possa contribuir com minhas habilidades técnicas, capacidade analítica e aprendizado constante.`
-  };
-
   const skills = {
     suporte: [
       'Help Desk',
@@ -269,57 +257,6 @@ Busco oportunidades em ambientes colaborativos, inovadores e voltados à melhori
                 alt="Rafaela Rodrigues"
                 className="w-full max-w-[360px] h-[430px] mx-auto rounded-3xl object-cover object-top border border-cyan-500/30 shadow-2xl mb-6"
               />
-
-              <div className="flex flex-wrap gap-3 mb-6 justify-center">
-                <span className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-4 py-2 rounded-xl text-sm">
-                  Windows Server
-                </span>
-                <span className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-4 py-2 rounded-xl text-sm">
-                  Infraestrutura
-                </span>
-                <span className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-4 py-2 rounded-xl text-sm">
-                  Cloud
-                </span>
-                <span className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-4 py-2 rounded-xl text-sm">
-                  VPN
-                </span>
-                <span className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-4 py-2 rounded-xl text-sm">
-                  Active Directory
-                </span>
-                <span className="bg-cyan-500/10 text-cyan-300 border border-cyan-500/30 px-4 py-2 rounded-xl text-sm">
-                  Redes
-                </span>
-              </div>
-              <section className="bg-slate-900/80 border border-cyan-500/20 rounded-3xl p-8 mt-8 shadow-lg">
-  <p className="text-cyan-400 text-sm uppercase tracking-widest">
-    {apresentacao.subtitulo}
-  </p>
-
-  <h2 className="text-3xl font-bold text-white mt-2">
-    {apresentacao.titulo}
-  </h2>
-
-  <p className="text-slate-300 mt-6 leading-relaxed whitespace-pre-line">
-    {apresentacao.texto}
-  </p>
-
-  <div className="flex flex-wrap gap-4 mt-8">
-    <a
-      href="https://www.linkedin.com/"
-      target="_blank"
-      className="bg-cyan-500 text-slate-950 px-5 py-3 rounded-2xl font-semibold hover:bg-cyan-400 transition"
-    >
-      LinkedIn
-    </a>
-
-    <a
-      href="mailto:raahr91@gmail.com"
-      className="border border-cyan-500 text-cyan-400 px-5 py-3 rounded-2xl font-semibold hover:bg-cyan-500/10 transition"
-    >
-      Contato
-    </a>
-  </div>
-</section>
 
               <div className="bg-slate-950/70 rounded-2xl p-5 border border-slate-800">
                 <h3 className="text-xl font-semibold mb-3 text-cyan-400">
