@@ -35,28 +35,42 @@ export default function Home() {
       <div className="fixed left-10 top-24 -z-10 h-72 w-72 animate-pulse rounded-full bg-cyan-400/10 blur-3xl" />
       <div className="fixed bottom-20 right-10 -z-10 h-80 w-80 animate-pulse rounded-full bg-violet-500/10 blur-3xl" />
 
-      <nav className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/50 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="#inicio" className="text-lg font-black text-cyan-300">
-            Rafaela Rodrigues
-          </a>
+      <nav className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/70 backdrop-blur-xl">
+  <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-3 sm:px-6 md:flex-row md:items-center md:justify-between">
+    <a
+      href="#inicio"
+      className="text-center text-base font-black text-cyan-300 md:text-left md:text-lg"
+    >
+      Rafaela Rodrigues
+    </a>
 
-          <div className="hidden gap-6 md:flex">
-            <a href="#atuacao" className="text-sm font-semibold text-slate-300 transition hover:text-cyan-300">
-              Atuação
-            </a>
-            <a href="#tecnologias" className="text-sm font-semibold text-slate-300 transition hover:text-cyan-300">
-              Tecnologias
-            </a>
-            <a href="#contato" className="text-sm font-semibold text-slate-300 transition hover:text-cyan-300">
-              Contato
-            </a>
-          </div>
-        </div>
-      </nav>
+    <div className="flex flex-wrap justify-center gap-2 md:gap-6">
+      <a
+        href="#atuacao"
+        className="rounded-lg px-3 py-2 text-xs font-semibold text-slate-300 transition hover:text-cyan-300 md:text-sm"
+      >
+        Atuação
+      </a>
 
-      <section id="inicio" className="mx-auto max-w-7xl px-6 pt-4 pb-10">
-        <div className="animate-fadeInUp grid items-center gap-12 rounded-[2rem] border border-white/10 bg-white/10 p-7 shadow-2xl shadow-slate-950/40 backdrop-blur-xl md:grid-cols-[1.1fr_0.9fr] md:p-8">
+      <a
+        href="#tecnologias"
+        className="rounded-lg px-3 py-2 text-xs font-semibold text-slate-300 transition hover:text-cyan-300 md:text-sm"
+      >
+        Tecnologias
+      </a>
+
+      <a
+        href="#contato"
+        className="rounded-lg px-3 py-2 text-xs font-semibold text-slate-300 transition hover:text-cyan-300 md:text-sm"
+      >
+        Contato
+      </a>
+    </div>
+  </div>
+</nav>
+
+      <section id="inicio" className="mx-auto max-w-7xl px-4 pt-6 pb-10 sm:px-6 lg:px-8">
+       <div className="grid items-center gap-10 rounded-[2rem] border border-white/10 bg-white/10 p-6 shadow-2xl shadow-slate-950/40 backdrop-blur-xl md:grid-cols-[1.05fr_0.95fr] md:p-8 lg:p-10">
           <div>
             <div className="inline-flex items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-400/10 px-4 py-2">
               <span className="h-2.5 w-2.5 rounded-full bg-emerald-400" />
@@ -69,11 +83,8 @@ export default function Home() {
               Tecnologia • Infraestrutura • Nuvem
             </p>
 
-            <h1
-             className="mt-5 max-w-2xl text-4xl font-bold leading-tight tracking-tight text-white md:text-5xl lg:text-6xl"
-             style={{ fontFamily: "'Space Grotesk', sans-serif" }}
-             >
-             Rafaela Rodrigues
+            <h1 className="mt-5 max-w-4xl text-4xl font-black tracking-tight text-white sm:text-5xl lg:text-6xl">
+              Rafaela Rodrigues
             </h1>
 
             <p className="mt-5 text-2xl font-medium text-cyan-300">
@@ -91,48 +102,52 @@ export default function Home() {
                Em constante aperfeiçoamento em Inteligência Artificial, automação e tecnologias voltadas para eficiência operacional, suporte estratégico e transformação digital. 
             </p>
 
-            <div className="mt-8 grid gap-4 sm:grid-cols-3">
-              {[
-                ["10+", "anos em atendimento"],
-                ["5+", "anos em tecnologia"],
-                ["N1/N3", "suporte técnico"],
-              ].map(([numero, texto]) => (
-                <div
-                  key={texto}
-                  className="rounded-2xl border border-cyan-400/20 bg-slate-950/40 p-5 shadow-lg shadow-cyan-950/20 backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/60 hover:shadow-cyan-500/20"
-                >
-                  <p className="text-3xl font-black tracking-tight md:text-5xl text-cyan-300">
-                    {numero}
-                  </p>
-                  <p className="mt-2 text-sm text-slate-300">{texto}</p>
-                </div>
-              ))}
-            </div>
+            <div className="mt-8 grid grid-cols-3 gap-3 sm:gap-4">
+  {[
+    ["10+", "anos em atendimento"],
+    ["5+", "anos em tecnologia"],
+    ["N3", "suporte técnico"],
+  ].map(([numero, texto]) => (
+    <div
+      key={texto}
+      className="rounded-2xl border border-cyan-400/20 bg-slate-950/40 p-3 text-center shadow-lg shadow-cyan-950/20 backdrop-blur transition duration-300 hover:-translate-y-1 hover:border-cyan-400/60 sm:p-5"
+    >
+      <p className="text2xl font-black text-cyan-300 sm:text-4xl">
+        {numero}
+      </p>
 
-            <div className="mt-8 flex flex-wrap gap-4">
-              <Link
-               to="/curriculo"
-               className="rounded-xl bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 transition duration-300 hover:-translate-y-1 hover:bg-cyan-300"
-                >
-               Currículo
-              </Link>
+      <p className="mt-2 text-xs leading-5 text-slate-300 sm:text-sm">
+        {texto}
+      </p>
+    </div>
+  ))}
+</div>
+            <div className="mt-8 grid gap-3 sm:flex sm:flex-wrap">
 
-              <Link
-               to="/carta-apresentacao"
-               className="rounded-xl border border-cyan-400/40 px-6 py-3 text-sm font-semibold text-cyan-300 transition duration-300 hover:-translate-y-1 hover:bg-cyan-400 hover:text-slate-950"
-                >
-               Carta de Apresentação
-              </Link>
+  <Link
+    to="/curriculo"
+    className="rounded-xl bg-cyan-400 px-6 py-3 text-center text-sm font-semibold text-slate-950 transition duration-300 hover:-translate-y-1 hover:bg-cyan-300"
+  >
+    Currículo
+  </Link>
 
-              <a
-               href="https://www.linkedin.com/in/rafaelarodrigues-it-support"
-               target="_blank"
-               rel="noreferrer"
-               className="rounded-xl border border-cyan-400/40 px-6 py-3 text-sm font-semibold text-cyan-300 transition duration-300 hover:-translate-y-1 hover:bg-cyan-400 hover:text-slate-950"
-                >
-               LinkedIn
-              </a>
-            </div>
+  <Link
+    to="/carta-apresentacao"
+    className="rounded-xl border border-cyan-400 px-6 py-3 text-center text-sm font-semibold text-cyan-300 transition duration-300 hover:-translate-y-1 hover:bg-cyan-400 hover:text-slate-950"
+  >
+    Carta de Apresentação
+  </Link>
+
+  <a
+    href="https://www.linkedin.com/in/rafaelarodrigues-it-support"
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-xl border border-cyan-400 px-6 py-3 text-center text-sm font-semibold text-cyan-300 transition duration-300 hover:-translate-y-1 hover:bg-cyan-400 hover:text-slate-950"
+  >
+    LinkedIn
+  </a>
+
+</div>
           </div>
 
           <div className="flex items-start justify-center md:-mt-10">
@@ -321,12 +336,12 @@ export default function Home() {
             Service Desk, Help Desk, cloud e operações de TI.
           </p>
 
-          <div className="mt-8 flex flex-wrap justify-center gap-4">
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
             <a
               href="https://wa.me/5527998540485"
               target="_blank"
               rel="noreferrer"
-              className="rounded-xl bg-cyan-400 px-6 py-3 text-sm font-bold text-slate-950 transition hover:-translate-y-1 hover:bg-cyan-300"
+              className="w-full rounded-xl border border-cyan-400 px-5 py-3 text-center text-sm font-semibold text-cyan-300 sm:w-auto"
             >
               Chamar no WhatsApp
             </a>
@@ -336,7 +351,7 @@ export default function Home() {
                 window.location.href =
                   "mailto:raahr91@gmail.com?subject=Contato%20via%20Portfólio";
               }}
-              className="rounded-xl border border-cyan-400 px-6 py-3 text-sm font-bold text-cyan-300 transition hover:-translate-y-1 hover:bg-cyan-400 hover:text-slate-950"
+              className="w-full rounded-xl border border-cyan-400 px-5 py-3 text-center text-sm font-semibold text-cyan-300 sm:w-auto"
             >
               Enviar E-mail
             </button>

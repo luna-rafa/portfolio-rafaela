@@ -253,17 +253,18 @@ export default function Curriculo() {
 
             <p className="mt-8 max-w-2xl text-base leading-7 text-slate-300 md:text-lg">
               Profissional de Tecnologia com experiência em suporte técnico,
-              infraestrutura, cloud e operações corporativas de TI.
+              infraestrutura, cloud e operações corporativas de TI
+              .
               Atuação com foco em resolução estratégica de incidentes,
               estabilidade operacional, automação e melhoria contínua.
             </p>
 
-            <div className="mt-8 flex flex-wrap gap-4">
+            
               <a
                 href="https://wa.me/5527998540485"
                 target="_blank"
                 rel="noreferrer"
-                className="rounded-xl bg-cyan-400 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-1 hover:bg-cyan-300"
+                className="w-full rounded-xl border border-cyan-400 px-5 py-3 text-center text-sm font-semibold text-cyan-300 sm:w-auto"
               >
                 WhatsApp
               </a>
@@ -273,13 +274,13 @@ export default function Curriculo() {
                   window.location.href =
                     "mailto:raahr91@gmail.com?subject=Contato%20via%20Portfólio";
                 }}
-                className="rounded-xl border border-cyan-400 px-6 py-3 text-sm font-semibold text-cyan-300 transition hover:-translate-y-1 hover:bg-cyan-400 hover:text-slate-950"
+                className="w-full rounded-xl border border-cyan-400 px-5 py-3 text-center text-sm font-semibold text-cyan-300 sm:w-auto"
               >
                 E-mail
               </button>
             </div>
           </div>
-        </div>
+        
 
         <section className="mt-12">
           <p className="text-sm uppercase tracking-[0.35em] text-cyan-300">
