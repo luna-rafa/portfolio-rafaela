@@ -127,22 +127,13 @@ export default function Curriculo() {
       nome: "Technical Support Fundamentals",
       instituicao: "Google",
     },
-    {
-      nome: "Docker",
-      instituicao: "Udemy",
-    },
-    {
-      nome: "Linux",
-      instituicao: "Udemy",
-    },
+    { nome: "Docker", instituicao: "Udemy" },
+    { nome: "Linux", instituicao: "Udemy" },
     {
       nome: "Algoritmos e Lógica de Programação",
       instituicao: "Udemy",
     },
-    {
-      nome: "Java Completo",
-      instituicao: "Udemy",
-    },
+    { nome: "Java Completo", instituicao: "Udemy" },
   ];
 
   const stackCategorias = [
@@ -189,9 +180,8 @@ export default function Curriculo() {
       <div className="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,#155e75,transparent_25%),radial-gradient(circle_at_top_right,#2563eb,transparent_28%),radial-gradient(circle_at_bottom_right,#7e22ce,transparent_34%),linear-gradient(to_bottom,#0f172a,#1e293b,#172554)]" />
 
       <nav className="sticky top-0 z-50 border-b border-white/10 bg-slate-900/50 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-4 px-6 py-5 md:justify-between">
+        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-5 md:flex-row md:items-center md:justify-between">
           <div className="flex flex-wrap items-center justify-center gap-4">
-            
             <a
               href="https://wa.me/5527998540485"
               target="_blank"
@@ -200,11 +190,18 @@ export default function Curriculo() {
             >
               WhatsApp
             </a>
+
+            <a
+              href="mailto:raahr91@gmail.com?subject=Contato%20via%20Portfólio"
+              className="rounded-xl border border-cyan-400/30 px-5 py-2 text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400 hover:text-slate-950"
+            >
+              E-mail
+            </a>
           </div>
 
           <Link
             to="/"
-            className="rounded-xl border border-cyan-400 px-5 py-2 text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400 hover:text-slate-950"
+            className="rounded-xl border border-cyan-400 px-5 py-2 text-center text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400 hover:text-slate-950"
           >
             Voltar ao Portfólio
           </Link>
@@ -220,7 +217,7 @@ export default function Curriculo() {
               <img
                 src={fotoRafaela}
                 alt="Rafaela Rodrigues"
-                className="relative h-[260px] w-[260px] rounded-full border border-cyan-300/70 object-cover object-top brightness-90 contrast-100 shadow-[0_0_50px_rgba(34,211,238,0.16)] transition duration-500 hover:scale-[1.02] md:h-[300px] md:w-[300px]"
+                className="relative h-[220px] w-[220px] rounded-full border border-cyan-300/70 object-cover object-top brightness-90 contrast-100 shadow-[0_0_50px_rgba(34,211,238,0.16)] transition duration-500 hover:scale-[1.02] sm:h-[260px] sm:w-[260px] md:h-[300px] md:w-[300px]"
               />
             </div>
           </div>
@@ -244,34 +241,30 @@ export default function Curriculo() {
 
             <p className="mt-8 max-w-2xl text-base leading-7 text-slate-300 md:text-lg">
               Profissional de Tecnologia com experiência em suporte técnico,
-              infraestrutura, cloud e operações corporativas de TI
-              .
-              Atuação com foco em resolução estratégica de incidentes,
-              estabilidade operacional, automação e melhoria contínua.
+              infraestrutura, cloud e operações corporativas de TI. Atuação com
+              foco em resolução estratégica de incidentes, estabilidade
+              operacional, automação e melhoria contínua.
             </p>
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-
               <a
-              href="https://wa.me/5527998540485"
-              target="_blank"
-              className="flex-1 rounded-2xl border border-cyan-400 px-6 py-4 text-center text-cyan-300 transition hover:bg-cyan-400/10"
-             >
-              WhatsApp
+                href="https://wa.me/5527998540485"
+                target="_blank"
+                rel="noreferrer"
+                className="flex-1 rounded-2xl border border-cyan-400 px-6 py-4 text-center text-cyan-300 transition hover:bg-cyan-400/10"
+              >
+                WhatsApp
               </a>
 
-               <a
-               href="mailto:raahr91@email.com"
-               className="flex-1 rounded-2xl border border-cyan-400 px-6 py-4 text-center text-cyan-300 transition hover:bg-cyan-400/10"
-                >
-                 E-mail
-                </a>
-
-             </div>
-
-              </div>
+              <a
+                href="mailto:raahr91@gmail.com?subject=Contato%20via%20Portfólio"
+                className="flex-1 rounded-2xl border border-cyan-400 px-6 py-4 text-center text-cyan-300 transition hover:bg-cyan-400/10"
+              >
+                E-mail
+              </a>
+            </div>
           </div>
-        
+        </div>
 
         <section className="mt-12">
           <p className="text-sm uppercase tracking-[0.35em] text-cyan-300">
@@ -311,6 +304,7 @@ export default function Curriculo() {
                       className="flex gap-3 text-sm leading-7 text-slate-300"
                     >
                       <span className="mt-2 h-2 w-2 flex-none rounded-full bg-cyan-300" />
+
                       <span>{ponto}</span>
                     </li>
                   ))}
@@ -369,7 +363,9 @@ export default function Curriculo() {
                 key={cert.nome}
                 className="rounded-3xl border border-cyan-400/10 bg-white/[0.08] p-7 shadow-[0_0_40px_rgba(15,23,42,0.45)] backdrop-blur-xl transition duration-500 hover:-translate-y-2 hover:border-cyan-400/40 hover:shadow-cyan-500/10"
               >
-                <h3 className="text-xl font-bold text-white">{cert.nome}</h3>
+                <h3 className="text-xl font-bold text-white">
+                  {cert.nome}
+                </h3>
 
                 <p className="mt-2 text-sm text-cyan-300">
                   {cert.instituicao}
@@ -394,7 +390,9 @@ export default function Curriculo() {
                 key={item}
                 className="rounded-3xl border border-cyan-400/10 bg-white/[0.08] p-7 shadow-[0_0_40px_rgba(15,23,42,0.45)] backdrop-blur-xl transition duration-500 hover:-translate-y-2 hover:border-cyan-400/40 hover:shadow-cyan-500/10"
               >
-                <p className="text-sm leading-7 text-slate-300">{item}</p>
+                <p className="text-sm leading-7 text-slate-300">
+                  {item}
+                </p>
               </div>
             ))}
           </div>
