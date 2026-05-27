@@ -221,7 +221,7 @@ export default function Curriculo() {
               <img
                 src={fotoRafaela}
                 alt="Rafaela Rodrigues"
-                className="relative h-[220px] w-[220px] rounded-full border border-cyan-300/70 object-cover object-top brightness-90 contrast-100 shadow-[0_0_50px_rgba(34,211,238,0.16)] transition duration-500 hover:scale-[1.02] sm:h-[260px] sm:w-[260px] md:h-[300px] md:w-[300px]"
+                className="relative h-[260px] w-[260px] rounded-full border border-cyan-300/80 object-cover object-top brightness-95 contrast-105 shadow-[0_0_80px_rgba(34,211,238,0.25)] transition duration-500 hover:scale-[1.02] sm:h-[340px] sm:w-[340px] md:h-[420px] md:w-[420px]"
               />
             </div>
           </div>
