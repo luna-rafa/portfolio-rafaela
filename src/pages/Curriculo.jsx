@@ -259,15 +259,24 @@ export default function Curriculo() {
               estabilidade operacional, automação e melhoria contínua.
             </p>
 
-            
-              <a
-                href="https://wa.me/5527998540485"
-                target="_blank"
-                rel="noreferrer"
-                className="w-full rounded-xl border border-cyan-400 px-5 py-3 text-center text-sm font-semibold text-cyan-300 sm:w-auto"
-              >
-                WhatsApp
-              </a>
+            <div className="mt-8 grid grid-cols-2 gap-4 sm:flex-row">
+  
+             <a
+              href="https://wa.me/5527998540485"
+              target="_blank"
+              className="flex-1 rounded-2xl border border-cyan-400 px-6 py-4 text-center text-cyan-300 transition hover:bg-cyan-400/10"
+            >
+              WhatsApp
+            </a>
+
+            <a
+             href="mailto:seuemail@email.com"
+             className="flex-1 rounded-2xl border border-cyan-400 px-6 py-4 text-center text-cyan-300 transition hover:bg-cyan-400/10"
+            >
+             E-mail
+             </a>
+
+             </div>
 
               <button
                 onClick={() => {
