@@ -191,16 +191,7 @@ export default function Curriculo() {
       <nav className="sticky top-0 z-50 border-b border-white/10 bg-slate-900/50 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-4 px-6 py-5 md:justify-between">
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <button
-              onClick={() => {
-                window.location.href =
-                  "mailto:raahr91@gmail.com?subject=Contato%20via%20Portfólio";
-              }}
-              className="rounded-xl border border-cyan-400/30 px-5 py-2 text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400 hover:text-slate-950"
-            >
-              E-mail
-            </button>
-
+            
             <a
               href="https://wa.me/5527998540485"
               target="_blank"
@@ -270,7 +261,7 @@ export default function Curriculo() {
               </a>
 
                <a
-               href="mailto:seuemail@email.com"
+               href="mailto:raahr91@email.com"
                className="flex-1 rounded-2xl border border-cyan-400 px-6 py-4 text-center text-cyan-300 transition hover:bg-cyan-400/10"
                 >
                  E-mail
@@ -278,16 +269,7 @@ export default function Curriculo() {
 
              </div>
 
-              <button
-                onClick={() => {
-                  window.location.href =
-                    "mailto:raahr91@gmail.com?subject=Contato%20via%20Portfólio";
-                }}
-                className="w-full rounded-xl border border-cyan-400 px-5 py-3 text-center text-sm font-semibold text-cyan-300 sm:w-auto"
-              >
-                E-mail
-              </button>
-            </div>
+              </div>
           </div>
         
 
