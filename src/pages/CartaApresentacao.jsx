@@ -183,11 +183,13 @@ export default function CartaApresentacao() {
             </a>
 
             <a
-              href="mailto:raahr91@gmail.com?subject=Contato%20via%20Portfólio"
-              className="flex-1 rounded-2xl border border-cyan-400 px-6 py-4 text-center text-cyan-300 transition hover:bg-cyan-400/10 sm:flex-none"
-            >
-              E-mail
-            </a>
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=raahr91@gmail.com&su=Contato%20via%20Portf%C3%B3lio"
+  target="_blank"
+  rel="noreferrer"
+  className="flex-1 rounded-2xl border border-cyan-400 px-6 py-4 text-center text-cyan-300 transition hover:bg-cyan-400/10"
+>
+  E-mail
+</a>
 
           </div>
         </section>
