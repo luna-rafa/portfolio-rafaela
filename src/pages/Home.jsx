@@ -222,7 +222,7 @@ export default function Home() {
 
         github: "https://github.com/luna-rafa/portfolio-rafaela",
 
-        projeto: "#",
+        projeto: "https://rafaelarodrigues.vercel.app/",
       },
 
       {
