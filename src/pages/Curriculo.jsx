@@ -181,25 +181,27 @@ export default function Curriculo() {
 
       <nav className="sticky top-0 z-50 border-b border-white/10 bg-slate-900/50 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-5 md:flex-row md:items-center md:justify-between">
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            <a
-              href="https://wa.me/5527998540485"
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-xl border border-cyan-400/30 px-5 py-2 text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400 hover:text-slate-950"
-            >
-              WhatsApp
-            </a>
+         <div className="mt-8 flex flex-wrap gap-4">
 
-            <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=raahr91@gmail.com&su=Contato%20via%20Portf%C3%B3lio"
-  target="_blank"
-  rel="noreferrer"
-  className="flex-1 rounded-2xl border border-cyan-400 px-6 py-4 text-center text-cyan-300 transition hover:bg-cyan-400/10"
->
-  E-mail
-</a>
-          </div>
+  <a
+    href="https://wa.me/5527998540485"
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-xl border border-cyan-400 px-6 py-3 text-center text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400/10"
+  >
+    WhatsApp
+  </a>
+
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=raahr91@gmail.com&su=Contato%20via%20Portf%C3%B3lio"
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-xl border border-cyan-400 px-6 py-3 text-center text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400/10"
+  >
+    E-mail
+  </a>
+
+</div>
 
           <Link
             to="/"
@@ -248,24 +250,27 @@ export default function Curriculo() {
               operacional, automação e melhoria contínua.
             </p>
 
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-              <a
-                href="https://wa.me/5527998540485"
-                target="_blank"
-                rel="noreferrer"
-                className="flex-1 rounded-2xl border border-cyan-400 px-6 py-4 text-center text-cyan-300 transition hover:bg-cyan-400/10"
-              >
-                WhatsApp
-              </a>
+            <div className="mt-8 flex flex-wrap gap-4">
 
-              <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=raahr91@gmail.com&su=Contato%20via%20Portf%C3%B3lio"
-  target="_blank"
-  rel="noreferrer"
-className="rounded-xl border border-cyan-400 px-4 py-2 text-center text-sm text-cyan-300 transition hover:bg-cyan-400/10">
-  E-mail
-</a>s
-            </div>
+  <a
+    href="https://wa.me/5527998540485"
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-xl border border-cyan-400 px-6 py-3 text-center text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400/10"
+  >
+    WhatsApp
+  </a>
+
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=raahr91@gmail.com&su=Contato%20via%20Portf%C3%B3lio"
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-xl border border-cyan-400 px-6 py-3 text-center text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400/10"
+  >
+    E-mail
+  </a>
+
+</div>
           </div>
         </div>
 

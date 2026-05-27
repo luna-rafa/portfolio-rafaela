@@ -188,7 +188,7 @@ export default function CartaApresentacao() {
   rel="noreferrer"
   className="rounded-xl border border-cyan-400 px-4 py-2 text-center text-sm text-cyan-300 transition hover:bg-cyan-400/10"
 >
-  E-mail
+  Enviar e-mail
 </a>
 
           </div>

@@ -262,24 +262,27 @@ export default function Home() {
             infraestrutura, Service Desk, Help Desk, cloud e operações de TI.
           </p>
 
-          <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a
-              href="https://wa.me/5527998540485"
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-xl bg-cyan-400 px-6 py-3 text-sm font-bold text-slate-950 transition hover:-translate-y-1 hover:bg-cyan-300"
-            >
-              Chamar no WhatsApp
-            </a>
+          <div className="mt-8 flex flex-wrap gap-4">
 
-            <a
-  href="https://mail.google.com/mail/?view=cm&fs=1&to=raahr91@gmail.com&su=Contato%20via%20Portf%C3%B3lio"
-  target="_blank"
-  rel="noreferrer"
-  className="rounded-xl border border-cyan-400 px-4 py-2 text-center text-sm text-cyan-300 transition hover:bg-cyan-400/10">
-  E-mail
-</a>
-          </div>
+  <a
+    href="https://wa.me/5527998540485"
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-xl border border-cyan-400 px-6 py-3 text-center text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400/10"
+  >
+    WhatsApp
+  </a>
+
+  <a
+    href="https://mail.google.com/mail/?view=cm&fs=1&to=raahr91@gmail.com&su=Contato%20via%20Portf%C3%B3lio"
+    target="_blank"
+    rel="noreferrer"
+    className="rounded-xl border border-cyan-400 px-6 py-3 text-center text-sm font-semibold text-cyan-300 transition hover:bg-cyan-400/10"
+  >
+    E-mail
+  </a>
+
+</div>
         </div>
       </section>
 
